@@ -27,6 +27,8 @@ This program is a configurable MPI sythetic benchark. It's purpose is to run ver
 
 A sample usage case might be: `srun -N8 /g/g19/lavin2/synth/synth -p 1 -t 1000 -s 1048576` as is provided in `moab.sh`.
 
+Time elapsed and configuration info will be output to `manifest.txt`
+
 # Compiling
 
 `make` 
